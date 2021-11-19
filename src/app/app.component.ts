@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'fluent-web-components';
+  exampleTextField = 'fluent-web-components';
+
+  onClick(value : string | null) {
+    alert('Hello ' + value);
+  }
 }
